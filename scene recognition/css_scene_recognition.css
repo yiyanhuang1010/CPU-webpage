@@ -1,0 +1,61 @@
+
+h1 {
+  background-color: lavender;
+  font-family: helvetica;
+  margin: 10px;
+  border: 2px;
+  border-style: dashed;
+  color: Black;
+  text-align: center;
+  padding:20px;
+}
+
+h2 {
+  font-size: 20pt;
+}
+
+p {
+  font-family: "times new roman";
+  color: navy;
+  padding: 10px;
+  font-size: 17pt;
+}
+
+img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    width: 400px;
+    height: 300px;
+}
+
+#sidebar {
+  color: green;
+  float: left;
+  padding: 5px;
+  margin: 10px;
+  width: 30%;
+}
+
+#rightbox {
+  padding: 5px;
+  margin: 10px;
+  font-size: 20pt;
+  width: 70%;
+}
+table {
+  text-align: center;
+}
+th {
+  text-align: center;
+  font-family: arial;
+  font-size: 15pt;
+  color: blue;
+  font-style: italic;
+}
+.footer {
+  background-color: gray;
+  color: black;
+  text-align: center;
+  font-size: 8pt;
+}

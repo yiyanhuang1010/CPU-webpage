@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Object Recognition</title>
+	</head>
+
+  <body>
+    <link rel="stylesheet" href="css_object_recognition.css">
+
+		<h1>Object Recognition Task</h1>
+
+    <div id="sidebar">
+      <h2>Directions:</h2>
+      <ol>
+        <li>Read the questions/instructions. Please refer to the examples of good labeling and bad labeling as follows.</li>
+        <li>Choose the answer(s) best fit the description/answer the question.</li>
+        <li>At least but not limited to 1 image should be chosen.</li>
+        <li>Hit "Submit" button and DONE!</li>
+      </ol>
+    </div>
+
+<div id="rightbox">
+  <h2>Please answer the following question:</h2>
+  <p>Is there any car in this image? Choose at least one image and hit the "submit" button.</p>
+</div>
+
+<table>
+  <tr>
+  <th colspan="2">Examples of good and bad labeling:</th>
+  </tr>
+  <tr>
+    <td>
+      <p>Right example:</p>
+    </td>
+    <td>
+        <p>Wrong example:</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="pictures/car_test_right.jpg" alt="right_example">
+    </td>
+    <td>
+      <img src="pictures/car_test_wrong.jpg" alt="wrong_example">
+    </td>
+  </tr>
+</table>
+
+
+<form>
+    <table border="true">
+      <tr>
+        <th colspan="3">Object Recognition</th>
+      </tr>
+      <tr>
+        <td>
+          <img src="pictures/car1.png" alt="picture 1">
+          <input type="checkbox" name="checkboxes" value="1">
+        </td>
+        <td>
+          <img src="pictures/car2.jpg" alt="picture 2" >
+          <input type="checkbox" name="checkboxes" value="2">
+        </td>
+        <td>
+          <img src="pictures/car3.jpg" alt="picture 3" >
+          <input type="checkbox" name="checkboxes" value="3">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <img src="pictures/car4.jpg" alt="picture 4" >
+          <input type="checkbox" name="checkboxes" value="4">
+        </td>
+        <td>
+          <img src="pictures/car5.jpg" alt="picture 5" >
+          <input type="checkbox" name="checkboxes" value="5">
+        </td>
+        <td>
+          <img src="pictures/car6.jpg" alt="picture 6" >
+          <input type="checkbox" name="checkboxes" value="6">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <img src="pictures/car7.jpg" alt="picture 7" >
+          <input type="checkbox" name="checkboxes" value="7">
+        </td>
+        <td>
+          <img src="pictures/car8.jpg" alt="picture 8" >
+          <input type="checkbox" name="checkboxes" value="8">
+        </td>
+        <td>
+          <img src="pictures/car9.jpg" alt="picture 9" >
+          <input type="checkbox" name="checkboxes" value="9">
+        </td>
+      </tr>
+    </table>
+<div class="feedback">
+<p>Please let us know for any comment! :D</p>
+<textarea cols="90" rows="4" name="comments" value=""></textarea>
+<p><input type="submit" name="submitButton" value="submit"></p>
+</div>
+</form>
+
+<div class="footer">
+	The images used here for testing are credited to: Creative Commons.	<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img id="cclogo" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+</div>
+
+<script src="js_object_recognition.js"></script>
+
+</body>
+</html>

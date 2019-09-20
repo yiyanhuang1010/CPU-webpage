@@ -1,0 +1,61 @@
+
+h1 {
+  background-color: lavenderblush;
+  font-family: helvetica;
+  margin: 10px;
+  border: 2px;
+  border-style: dashed;
+  color: Black;
+  text-align: center;
+  padding:20px;
+}
+
+h2 {
+  font-size: 20pt;
+}
+
+p {
+  font-family: "times new roman";
+  color: DarkSlateBlue;
+  padding: 10px;
+  font-size: 18pt;
+}
+
+img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    width: 400px;
+    height: 300px;
+}
+th {
+  text-align: center;
+  font-size: 18pt;
+  color: indigo;
+}
+footer {
+  font-size: 8pt;
+}
+table {
+  text-align: center;
+}
+.feedback {
+  text-align: center;
+}
+#sidebar {
+  color: green;
+  float: left;
+  padding: 5px;
+  margin: 10px;
+  width: 30%;
+}
+
+#rightbox {
+  padding: 5px;
+  margin: 10px;
+  width: 70%;
+}
+#cclogo {
+  width:auto;
+  height: auto;
+}
